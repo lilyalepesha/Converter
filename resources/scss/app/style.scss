@@ -1,0 +1,285 @@
+
+
+body {
+    margin-top: 150px;
+    background: #eccdcd;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #ee5959;
+    text-align: center;
+}
+
+.footer__text{
+    color: white;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 85px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #ee5959;
+
+}
+
+.menu {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-bottom: 8px;
+    list-style-type: none;
+    border: 2px solid #ee5959;
+    border-radius: 90px 20px;
+    width: 800px;
+    text-align: center;
+    background-color: #ee5959;
+    max-height: 50px;
+}
+
+.menu li {
+    display: inline;
+
+}
+
+.menu a {
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+.menu a:hover {
+    border-radius: 20px 5px;
+    background-color: #ff0000;
+    transition: 0.6s;
+    border: 1px solid #ff3e3e;
+}
+
+.button__main__page{
+    border: 1px solid black;
+    border-radius: 50px;
+    background: #bac9e8;
+    border-color: #bac9e8;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 2px 30px;
+}
+
+.wrapper {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wrapper__subtitle{
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.buttons__accaunt{
+    margin-right: 60px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: right;
+    max-height: 30px;
+
+}
+
+.button__login{
+    margin-right: 20px;
+    background: #6f96e3;
+    border: 1px solid #6f96e3;
+    border-radius: 50px;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6f96e3;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.button__register{
+    margin-right: 20px;
+    background: #6f96e3;
+    border: 1px solid #6f96e3;
+    border-radius: 50px;
+    padding: 0 20px;
+    margin: 0 15px 15px 0;height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6f96e3;
+    box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: box-shadow 0.2s;
+}
+
+.button__register:hover
+{
+    border-radius: 3px #1b51bc;
+    background-color: #1b51bc;
+    transition: 0.3s;
+}
+
+
+.input__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.input__file-button-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    margin-top: 1px;
+
+}
+
+.input__file-button {
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #1b51bc;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.compression__button{
+    width: 100%;
+    max-width: 230px;
+    height: 40px;
+    background: #1b51bc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: center;
+    border-radius: 30px;
+    border-color: #1b51bc;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.registration-cssave{
+    padding:5px 0;
+    margin-top: 40px;
+}
+
+.registration-cssave form h3 {
+    font-weight:bold;
+    margin-bottom:35px;
+}
+
+.registration-cssave .item {
+    border-radius:10px;
+    margin-bottom:25px;
+    padding:10px 20px;
+}
+
+.registration-cssave .create-account {
+    border-radius:30px;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#3f93ff;
+    border:none;
+    color:white;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .registration-cssave form {
+        padding:50px 20px;
+    }
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+

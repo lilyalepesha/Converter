@@ -1,0 +1,16 @@
+.mail__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.mail__title{
+    font-size: 40px;
+    color: #7c151f;
+    font-weight: bold;
+}
+.mail__item{
+    font-weight: 500;
+    font-size: 18px;
+}

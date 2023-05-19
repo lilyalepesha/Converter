@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-family: raleway_f, sans-serif;
+}
+
+.background-registr
+{
+    width: 110%;
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.568) ;
+    position: absolute;
+    background: url("/images/piqebjy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.1s ease; 
+}
+
+.body {
+    overflow: hidden;
+    transition: all 0.1s ease; 
+}
+
+.registration__title {
+    color: white;
+    padding-top: 30px;
+}
+.auth__input {
+    border: none;
+    color: #000000a6;
+    text-align: right;
+    background-color: transparent;
+    font-family: $font-roboto;
+    font-weight: normal;
+    font-size: 12px;
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.main_vhod {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: raleway_f, sans-serif;
+}
+
+
+
+.buttons_main_page{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.form-groupReg{
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 100%;
+}
+.form_register {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px;
+}
+.auth__input_file {
+    padding-top: 37px;
+    color: white;
+}
+.block__link_registr {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 21px;
+}
+.registration__title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-groupReg{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.form-groupReg input {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    text-align: left;
+    z-index: 10;
+    color: rgb(46, 45, 45);
+}
+
+.form-groupReg span {
+    position: absolute;
+    left: 0;
+    padding: 0 10px;
+    pointer-events: none;
+    color: rgb(129, 127, 127);
+    transition: 0.5s;
+    font-family: raleway_f, sans-serif;
+    font-size: 15px;
+}
+
+.form-groupReg input:valid ~ span,
+.form-groupReg input:focus ~ span {
+    color: white;
+    font-size: 0.75em;
+    transform: translateY(-25px);
+}
+
+.form-groupReg input:valid ~ i,
+.form-groupReg input:focus ~ i {
+    height: 30px;
+}
+
+.form-groupReg i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+input:focus 
+{ 
+    outline: none;
+}
+.form-control
+{
+    width: 192px;
+    border: none;
+    color: #000000a6;
+    background: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
+    text-align: left;
+    font-weight: normal;
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    padding: 7px 10px;
+}
+
+.registration {
+    width: 500px;
+    height: 365px;
+    padding: 20px;
+    background-color: black;
+    z-index: 50;
+    border-radius: 15px;
+    border-color: #fffffffa;
+    box-shadow: 0 0px 100px #ffdd935c;
+    transition: 0.5s;
+}
+.errorReg1{
+    text-align: center;
+    color: #EF9037;
+    position: absolute;
+    transform: translateY(80px);
+    font-size: 13px;
+}
+
+.errorReg2_registr{
+    color: #EF9037;
+    position: absolute;
+    transform: translateY(0px) translateX(43px);
+    font-size: 13px;
+}
+
+.errorReg3_registr{
+    color: #EF9037;
+    position: absolute;
+    transform: translateY(0px) translateX(30px);
+    font-size: 13px;
+}
+.errorReg4_registr {
+    color: #EF9037;
+    position: absolute;
+    transform: translateY(0px) translateX(30px);
+    font-size: 13px;
+}
+
+.errorReg4{
+    text-align: center;
+    color: #EF9037;
+    position: absolute;
+    transform: translateY(236px);
+    font-size: 13px;
+}
+
+.button__registr {
+    border: 2px solid #000000;
+    border-radius: 11px;
+    height: 32px;
+    border-color: #fffffff1;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    transition: 0.5s;
+	background: transparent;
+    width: 100%;
+    margin-bottom: 6px;
+    color: white;
+    font-family: raleway_f, sans-serif;
+
+}
+.button__registr:hover {
+    background-color:white;
+    color: black;
+    transition: 0.5s;
+}
+.form-control
+{
+    color: white;
+}
+
+.button__main {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    text-align: center;
+}

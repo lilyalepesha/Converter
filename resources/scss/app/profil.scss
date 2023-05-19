@@ -1,0 +1,44 @@
+.wrapper-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.section__profile {
+    padding: 20px 20px;
+    background-color: rgba(126, 126, 124, 0.349);
+    border-radius: 10px;
+}
+
+.profile_title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile__block_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.profile_avatar {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile__group {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.profile__input {
+    border-radius: 5px;
+    width: 175px;
+}
